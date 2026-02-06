@@ -43,3 +43,6 @@ nav:
   - iOS:
     - iOS/tutorial.md
     - iOS/error-code.md
+  - Android:
+    - Android/tutorial.md
+    - Android/error-code.md
