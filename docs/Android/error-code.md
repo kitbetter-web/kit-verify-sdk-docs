@@ -38,7 +38,6 @@ KiTverify SDK 사용 중 `KitVerifier.errorEvent` Flow를 통해 수신할 수 �
 | 클래스 | 설명 |
 |--------|------|
 | `AlreadyRunning` | 이미 실행 중입니다. |
-| `NotRunning` | 실행 중이 아닙니다. |
 
 ## 에러 처리 예제
 
