@@ -25,7 +25,7 @@ App level `build.gradle.kts`에 의존성을 추가합니다.
 
 ```kotlin title="build.gradle.kts"
 dependencies {
-    implementation("io.github.kitbetter-web:kit-verify-sdk-android:1.0.0") // 최신 버전을 확인하세요
+    implementation("io.github.kitbetter-web:verify-android:1.0.0") // 최신 버전을 확인하세요
 }
 ```
 
