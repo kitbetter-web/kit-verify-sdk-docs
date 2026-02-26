@@ -39,14 +39,12 @@ class SampleApplication : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        val sdkKey = "your-sdk-key"
+        val clientId = "your-client-id"
         val secretKey = "your-secret-key"
-        val packageName = "your.package.name"
 
         KitVerifier.initialize(
-            sdkKey,
+            clientId,
             secretKey,
-            packageName,
             this
         ) { isSuccess ->
             if (isSuccess) {
