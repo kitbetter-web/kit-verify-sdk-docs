@@ -15,4 +15,5 @@ KiTverify SDK는 음파 기반 앨범 태그 인식 기능을 제공하는 iOS S
 ## 시작하기
 
 - [iOS 튜토리얼](iOS/tutorial.md)
+- [Android 튜토리얼](Android/tutorial.md)
 - [에러 코드 레퍼런스](iOS/error-code.md)
