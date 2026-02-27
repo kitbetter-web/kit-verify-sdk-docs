@@ -49,8 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ) -> Bool {
         let clientId = "YOUR_CLIENT_ID"
         let secretKey = "YOUR_SECRET_KEY"
-        let packageId = "YOUR_PACKAGE_ID"
-        KiTverify.initialize(with: clientId, secretKey: secretKey, packageId: packageId)
+        KiTverify.initialize(with: clientId, secretKey: secretKey)
         return true
     }
 }
