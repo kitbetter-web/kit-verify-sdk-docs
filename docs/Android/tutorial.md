@@ -29,6 +29,12 @@ dependencies {
 }
 ```
 
+!!! warning "DataStore 의존성 추가 필수"
+    KiTverify SDK는 내부적으로 `androidx.datastore`를 사용하지만, AAR에는 포함되어 있지 않습니다.
+    앱 모듈의 `build.gradle`에 DataStore 의존성을 **반드시** 추가해야 합니다.
+
+    자세한 내용은 [DataStore 의존성 가이드](datastore.md)를 참고하세요.
+
 ## SDK 사용하기
 
 ### 1. 초기화 (Application Class 권장)

@@ -45,4 +45,5 @@ nav:
     - iOS/error-code.md
   - Android:
     - Android/tutorial.md
+    - Android/datastore.md
     - Android/error-code.md
